@@ -59,7 +59,9 @@ export const Navbar2 = () => {
                       lg: "15px",
                     }}
                   >
-                    <Text>Sarees</Text>
+                    <Link to='women'>
+                      <Text >Sarees</Text>
+                    </Link>
                   </Button>
                 </PopoverTrigger>
                 <PopoverContent w={"100%"} m={"-8px 0 0 0"}>

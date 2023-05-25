@@ -1,9 +1,7 @@
 import {
   Box,
   Flex,
-  IconButton,
   Text,
-  Image,
   Button,
   Grid,
 } from '@chakra-ui/react';
@@ -35,23 +33,3 @@ export const Navbar = () => {
     </>
   )
 }
-
-
-// <Flex h={16} alignItems={'center'} justifyContent={'space-between'}>
-//           <Flex justifyContent={'space-between'} alignItems='center' w='90%' m={'auto'} >
-//           <Text cursor='pointer' _hover={{ Color: "green", textDecoration: "underline" }}><Link to='home'>Home</Link></Text>
-//               <Text cursor='pointer' _hover={{ Color: "green", textDecoration: "underline" }}><Link to='about'>About</Link></Text>
-//               <Text cursor='pointer' _hover={{ Color: "green", textDecoration: "underline" }}><Link to='skills'>Skills</Link></Text>
-//               <Text cursor='pointer' _hover={{ Color: "green", textDecoration: "underline" }}><Link to='projects'>Projects</Link></Text>
-//               <Text cursor='pointer' _hover={{ Color: "green", textDecoration: "underline" }}><Link to='contact'>Contact</Link></Text>
-
-//             <Flex as={'nav'} spacing={5} display={{ base: 'none', md: 'flex' }} gap='20px' w={{ base: '', md: '60%', lg: '40%' }} justifyContent='space-between' alignItems='center' fontWeight='700' fontSize='20px'>
-//               <a href="https://drive.google.com/file/d/1BMRqb8SurfPgEu-V-pFfgGckAxU-SArt/view?usp=share_link" target='_blank' >
-//                 <Button size={{ base: 'sm', md: 'md', lg: 'lg' }} mt={{ base: '10px', md: '0' }} color='black' bg='#efee83' _hover={{ bgColor: "green" }} gap={1.0}>
-//                   Resume
-//                   <VscCloudDownload />
-//                 </Button>
-//               </a>
-//             </Flex>
-//           </Flex>
-//         </Flex>
